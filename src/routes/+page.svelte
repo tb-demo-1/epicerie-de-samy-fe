@@ -3,7 +3,7 @@
 </script>
 
 <main>
-	<h1>Liste de {data.props.user.email}</h1>
+	<h1>Liste d'épicerie de {data.props.user.email}</h1>
 
 	{#each data.props.grocery.items as item}
 		<p>{item.name} x{item.quantity}</p>
